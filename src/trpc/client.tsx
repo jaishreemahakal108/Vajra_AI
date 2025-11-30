@@ -46,6 +46,7 @@ export function TRPCReactProvider(
         httpBatchLink({
           // transformer: superjson, <-- if you use a data transformer
           url: getUrl(),
+          // url: '/api/trpc',
         }),
       ],
     }),

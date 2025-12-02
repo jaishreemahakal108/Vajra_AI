@@ -127,3 +127,15 @@
     cursor:pointer;
   }
 }
+
+@keyframes worm-move {
+  0% { transform: translateX(-150%); opacity: 0; }
+  25% { opacity: 1; }
+  50% { transform: translateX(0%); opacity: 1; }
+  75% { opacity: 1; }
+  100% { transform: translateX(150%); opacity: 0; }
+}
+
+.animate-worm {
+  animation: worm-move 1.8s ease-in-out infinite;
+}

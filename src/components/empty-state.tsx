@@ -3,6 +3,7 @@ import { Loader2 } from "lucide-react";
 interface Props {
     title: string;
     description: string;
+    
 };
 
 export const EmptyState = ({
